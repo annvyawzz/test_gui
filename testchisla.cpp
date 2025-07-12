@@ -17,9 +17,9 @@ void TestChisla::testCalculations_data()
     QTest::addColumn<QString>("num2");
     QTest::addColumn<QString>("expected");
 
-    QTest::newRow("GCD")  << 0 << "54" << "24" << "6";
-    QTest::newRow("GCD1")  << 0 << ""   << "24" << "Error";
-    QTest::newRow("GCD2")  << 0 << "54" << ""   << "Error";
+    QTest::newRow("GCD")  << 0 << "4" << "14" << "2";
+    QTest::newRow("GCD1")  << 0 << ""   << "14" << "Error";
+    QTest::newRow("GCD2")  << 0 << "4" << ""   << "Error";
     QTest::newRow("GCD3") << 0 << ""   << ""   << "Error";
 
     QTest::newRow("LCM")   << 1 << "21" << "6" << "42";
